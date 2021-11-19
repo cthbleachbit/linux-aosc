@@ -165,6 +165,7 @@
 			apple,npins = <212>;
 
 			interrupt-controller;
+			#interrupt-cells = <2>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 190 IRQ_TYPE_LEVEL_HIGH>,
 				     <AIC_IRQ 191 IRQ_TYPE_LEVEL_HIGH>,
@@ -198,6 +199,7 @@
 			apple,npins = <42>;
 
 			interrupt-controller;
+			#interrupt-cells = <2>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 268 IRQ_TYPE_LEVEL_HIGH>,
 				     <AIC_IRQ 269 IRQ_TYPE_LEVEL_HIGH>,
@@ -219,6 +221,7 @@
 			apple,npins = <23>;
 
 			interrupt-controller;
+			#interrupt-cells = <2>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 330 IRQ_TYPE_LEVEL_HIGH>,
 				     <AIC_IRQ 331 IRQ_TYPE_LEVEL_HIGH>,
@@ -239,6 +242,7 @@
 			apple,npins = <16>;
 
 			interrupt-controller;
+			#interrupt-cells = <2>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 391 IRQ_TYPE_LEVEL_HIGH>,
 				     <AIC_IRQ 392 IRQ_TYPE_LEVEL_HIGH>,
