@@ -18,6 +18,7 @@
 
 	aliases {
 		ethernet0 = &ethernet0;
+		port02 = &port02; /* adjust properties for the 10GE model */
 	};
 };
 
