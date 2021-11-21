@@ -115,6 +115,7 @@
 			compatible = "apple,t8103-i2c", "apple,i2c";
 			reg = <0x2 0x35010000 0x0 0x4000>;
 			clocks = <&clk24>;
+			power-domains = <&ps_i2c0>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 627 IRQ_TYPE_LEVEL_HIGH>;
 			pinctrl-0 = <&i2c0_pins>;
@@ -127,6 +128,7 @@
 			compatible = "apple,t8103-i2c", "apple,i2c";
 			reg = <0x2 0x35014000 0x0 0x4000>;
 			clocks = <&clk24>;
+			power-domains = <&ps_i2c1>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 628 IRQ_TYPE_LEVEL_HIGH>;
 			pinctrl-0 = <&i2c1_pins>;
@@ -139,6 +141,7 @@
 			compatible = "apple,t8103-i2c", "apple,i2c";
 			reg = <0x2 0x35018000 0x0 0x4000>;
 			clocks = <&clk24>;
+			power-domains = <&ps_i2c2>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 629 IRQ_TYPE_LEVEL_HIGH>;
 			pinctrl-0 = <&i2c2_pins>;
@@ -152,6 +155,7 @@
 			compatible = "apple,t8103-i2c", "apple,i2c";
 			reg = <0x2 0x3501c000 0x0 0x4000>;
 			clocks = <&clk24>;
+			power-domains = <&ps_i2c3>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 630 IRQ_TYPE_LEVEL_HIGH>;
 			pinctrl-0 = <&i2c3_pins>;
@@ -164,6 +168,7 @@
 			compatible = "apple,t8103-i2c", "apple,i2c";
 			reg = <0x2 0x35020000 0x0 0x4000>;
 			clocks = <&clk24>;
+			power-domains = <&ps_i2c4>;
 			interrupt-parent = <&aic>;
 			interrupts = <AIC_IRQ 631 IRQ_TYPE_LEVEL_HIGH>;
 			pinctrl-0 = <&i2c4_pins>;
